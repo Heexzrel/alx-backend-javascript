@@ -1,5 +1,4 @@
 export function taskFirst() {
-  // Using const for variables that won't be reassigned
   const task = 'I prefer const when I can.';
   return task;
 }
