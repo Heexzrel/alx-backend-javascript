@@ -1,0 +1,17 @@
+export function taskFirst() {
+  // Using const for variables that won't be reassigned
+  const task = 'I prefer const when I can.';
+  return task;
+}
+
+export function getLast() {
+  return ' is okay';
+}
+
+export function taskNext() {
+  // Using let for variables that might be reassigned later
+  let combination = 'But sometimes let';
+  combination += getLast();
+
+  return combination;
+}
